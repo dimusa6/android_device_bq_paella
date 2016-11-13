@@ -95,5 +95,7 @@ TARGET_KERNEL_SOURCE := kernel/bq/common
 
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
+TARGET_USES_MEDIA_EXTENSIONS := 
+
 # inherit from the proprietary version
 -include vendor/bq/paella/BoardConfigVendor.mk
