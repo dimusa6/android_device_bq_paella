@@ -93,7 +93,7 @@ BOARD_SEPOLICY_DIRS += \
 
 BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.console=ttyHSL0 androidboot.hardware=qcom msm_rtb.filter=0x237 ehci-hcd.park=3 androidboot.bootdevice=7824900.sdhci lpm_levels.sleep_disabled=1 earlyprintk
 
-TARGET_KERNEL_SOURCE := kernel/bq/common
+TARGET_KERNEL_SOURCE := kernel/bq/paella
 
 TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
 
