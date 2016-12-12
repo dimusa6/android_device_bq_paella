@@ -51,9 +51,10 @@ static void import_cmdline(const std::string& key,
     } else if (key == "androidboot.countrycode" && value == "GB") {
         sprintf(sku_mcc, "234");
         sku_match++;
-    } else if (!strcmp(name,"androidboot.spncode") && strnlen(value,2)) {
-		// Something with 2 or more chars is set... and it's not "None" nor "NONE"
-        if (strncmp(value,"None",4) && strncmp(value,"NONE",4)) sku_match++;
+    } else if (key == "androidboot.spncode" && value == "2") {
+	// Something with 2 or more chars is set... and it's not "None" nor "NONE"
+        sprintf(sku_mcc, "NONE",4);
+		sku_match++;
     } 
 }
 
