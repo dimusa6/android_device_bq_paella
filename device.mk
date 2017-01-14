@@ -1,6 +1,4 @@
 #
-# Copyright (C) 2014 The CyanogenMod Project
-#
 # Copyright (C) 2017 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -143,14 +141,8 @@ PRODUCT_PACKAGES += \
 
 #Apps
 PRODUCT_PACKAGES += \
-<<<<<<< HEAD
 	Camera2 \
-	Gello \
-	Camerabq
-=======
-	Gello \
-	Camera2
->>>>>>> fda33bf... paella: cm->lineage
+	Gello 
 
 # Connectivity Engine support
 PRODUCT_PACKAGES += \
